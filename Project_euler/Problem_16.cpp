@@ -30,7 +30,7 @@ string add_string(string s1, string s2)
 		result = char(temp + '0') + result;
 	}
 
-	if(l1 != 0)
+	if(l1 >= 0)
 	{
 		while(l1 >= 0)
 		{
